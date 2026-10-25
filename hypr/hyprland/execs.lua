@@ -23,5 +23,5 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("hypridle")
 
     -- Audio effects service: the shell's Equalizer loads presets into it (`easyeffects -l`)
-    hl.exec_cmd("easyeffects --hide-window --service-mode")
+    hl.exec_cmd("sleep 10; easyeffects --hide-window --service-mode")
 end)
